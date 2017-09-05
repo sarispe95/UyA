@@ -1,1 +1,2 @@
 # UyA
+#En estos archivos encontramos una página web, la cual, se llama diaro de clase. Tenemos el código de la página principal, que explica en que se basa la aplicación web. El segundo código es el de la segunda página que es utilizada para poder entrar al diario de clase gracias a nuestro usuario y contraseña. E último código se basa en el diario de clase donde podrás encontrar todas tus tareas, actividades, exámenes, etc. 
