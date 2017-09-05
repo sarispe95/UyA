@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <!-- Dimensiones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+
+    <!-- Iconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+    <!-- Titulo -->
+    <title>Diario de Clase</title>
+
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+</head>
+<body>
+	<!-- DISEÑO RESPONSIVE -->
+	<!-- WAI-ARIA: Comportamientos de la página, barra de navegación -->
+	<!--Navegacion-->
+	 <div class="navbar-fixed">
+	    <nav id="nav_f" class="#1a237e indigo darken-3" role="navigation">
+	        <div class="container">
+	            <div class="nav-wrapper">
+	            <a href="#" tabindex="1" id="logo-container" class="brand-logo">Diario de Clase</a>
+	                <ul class="right hide-on-med-and-down">
+	                    <li><a href="#inicio" tabindex="2">TuDiario</a></li>
+	                    <li><a href="#intro" tabindex="3">Información</a></li>
+	                    <li><a href="#work" tabindex="4">UyA</a></li>
+	                    <li><a href="#contact" tabindex="5">Contacto</a></li>
+	                </ul>
+	                <ul id="nav-mobile" class="side-nav">
+	                    <li><a href="#inicio" tabindex="2">TuDiario</a></li>
+	                    <li><a href="#intro" tabindex="3">Información</a></li>
+	                    <li><a href="#work" tabindex="4">UyA</a></li>
+	                    <li><a href="#contact" tabindex="5">Contacto</a></li>
+	                </ul>
+	            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+	            </div>
+	        </div>
+	    </nav>
+	</div>
+
+	<div class="section no-pad-bot">
+	    <div class="container">
+	        <h1 class="text_h center header cd-headline letters type blue-text">¡Diario de Clase!
+	            <span>Consulta</span> 
+	            <span class="waiting">
+	                <b class="is-visible">HORARIOS</b>
+	                <b>TAREAS</b>
+	                <b>EXAMENES</b>
+	            </span>
+	        </h1>
+	    </div>
+	</div>
+	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	<!-- Imagen de Escritorio -->
+	<div class="parallax-container">
+    	<div class="parallax"><img src="fondo2.jpg" alt="Imagen de Escritorio"></div>
+	</div>
+
+	<!--Intro-->
+	<div id="intro" class="section scrollspy">
+	    <div class="container">
+	        <div class="row">
+	            <div  class="col s12">
+	                <h2 class="center header text_h2">Bienvenido a <span class="span_h2">Diario de Clase</span><p> Tu sitio web donde podrás estar al día con tus estudios.</p></h2>
+	            </div>
+
+	            <div  class="col s12 m4 l4">
+	                <div class="center promo promo-example">
+	                    <h2 class="center grey-text"><i class="medium material-icons">done</i></h2>
+	                    <h5 class="promo-caption">¡Organiza tus tareas!</h5>
+	                    <p class="light center">Hemos creado la página con el propósito de poder satisfacer todas tus necesidades de tu curso académico. De manera sencilla podrás organizar tus tareas del curso con comodidad, activar notificaciones, compartir archivos, etc.</p>
+	                </div>
+	            </div>
+	            <div class="col s12 m4 l4">
+	                <div class="center promo promo-example">
+	                    <h2 class="center grey-text"><i class="medium material-icons">person_pin</i></h2>
+	                    <h5 class="promo-caption">¡Personaliza TuDiario!</h5>
+	                    <p class="light center">Con el uso de TuDiario, podrás personalizar tu sitio web a tu gusto. Podrás anotar tareas en el calendario, podrás organizar la estructura del horario como desees, y mucho más.</p>
+	                </div>
+	            </div>
+	            <div class="col s12 m4 l4">
+	                <div class="center promo promo-example">
+	                    <h2 class="center grey-text"><i class="medium material-icons">today</i></h2>
+	                    <h5 class="promo-caption">¡Ponte al día!</h5>
+	                    <p class="light center">Junto con el resto de usuarios, podrás llevar al día tus tareas, compartiendo archivos, consultando dudas, activando avisos de entregas, etc. Además, de manera fácil y rápida podrás acceder a cualquier tipo de información relacionada con tu curso académico.</p>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	<!-- Iniciar Sesion -->
+	<div  class="col s12" id="inicio">
+	    <h2 class="center header text_h2">Accede a<span class="span_h2"> TuDiario </span></h2>
+	</div>
+	<div class="row center">
+		<form method="post" action="inicio.php">
+		    <button class="btn waves-effect waves-light red darken-1" type="submit">
+		    <a href="inicio.php" class="white-text" tabindex="6">Iniciar Sesión<i class="mdi-content-send right white-text"></i></a></button>
+		</form>
+	</div>
+	<p></p>
+	<p></p>
+
+	<!-- Informes -->
+	<div class="section scrollspy" id="work">
+    <div class="container">
+        <h2 class="header text_b">Usabilidad y Accesibilidad</h2>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="usa.png" alt="Portada Informe Usabilidad">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4" tabindex="7">Informe de Usabilidad<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Acceso a PDF</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Informe de Usabilidad<i class="mdi-navigation-close right"></i></span>
+                        <p>Documento que aporta los datos sobre el nivel de Usabilidad de la página Web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="acce.png" alt= "Portada Informe Accesibilidad">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4" tabindex="8">Informe de Accesibilidad<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Acceso a PDF</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Informe de Accesibilidad<i class="mdi-navigation-close right"></i></span>
+                        <p>Documento que aporta los datos sobre el nivel de Accesibilidad de la página Web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="diario.png" alt="Portada Presentación">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4" tabindex="9">Presentación Proyecto<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Acceso a PPT</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Presentación Proyecto<i class="mdi-navigation-close right"></i></span>
+                        <p>Documento con todos los detalles de este proyecto. Comienzo, planificación, ejecución, conflictos, mejoras, informes, etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
+
+
+	<!-- Imagen de Escritorio -->
+	<!--<div class="parallax-container">
+    	<div class="parallax"><img src="fondo2.jpg"></div>
+	</div>-->
+
+	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	<!--Footer-->
+	<footer id="contact" class="page-footer default_color scrollspy">
+	    <div class="container">  
+	        <div class="row">
+	            <div class="col l3 s12">
+	                <h5 class="white-text" tabindex="10">Página Oficial</h5>
+	                <ul>
+	                	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                    <li><a class="white-text" href="https://www.ull.es/">Universidad de La Laguna</a></li>
+	                    <li><a class="white-text" href="https://www.ull.es/">Campus Virtual</a></li>
+	                    <li><a class="white-text" href="https://www.ull.es/view/centros/etsii/Inicio/es">ETSII</a></li>
+	                </ul>
+	            </div>
+	            <div class="col l3 s12">
+	                <h5 class="white-text" tabindex="11">Redes Sociales</h5>
+	                <ul>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://www.facebook.com">
+	                            <i class="small fa fa-facebook-square white-text"></i> Facebook
+	                        </a>
+	                    </li>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://github.com">
+	                            <i class="small fa fa-github-square white-text"></i> Github
+	                        </a>
+	                    </li>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://www.twitter.com">
+	                            <i class="small fa fa-twitter-square white-text"></i> Twitter
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="col l3 s12">
+	                <h5 class="white-text" tabindex="12">Equipo</h5>
+	                <h6 class="white-text" tabindex="13">Sara Pérez Rodríguez</h6>
+	                <ul>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://www.facebook.com">
+	                            <i class="small fa fa-facebook-square white-text"></i> Facebook
+	                        </a>
+	                    </li>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://github.com">
+	                            <i class="small fa fa-github-square white-text"></i> Github
+	                        </a>
+	                    </li>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://www.twitter.com">
+	                            <i class="small fa fa-twitter-square white-text"></i> Twitter
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="col l3 s12">
+					<br><br>
+	                <h6 class="white-text" tabindex="14">Ayrton Crespo García</h6>
+	                <ul>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://www.facebook.com">
+	                            <i class="small fa fa-facebook-square white-text"></i> Facebook
+	                        </a>
+	                    </li>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://github.com">
+	                            <i class="small fa fa-github-square white-text"></i> Github
+	                        </a>
+	                    </li>
+	                    <li>
+	                    	<!-- WAI-ARIA: Contenido que se actualiza dinámicamente -->
+	                        <a class="white-text" href="https://www.twitter.com">
+	                            <i class="small fa fa-twitter-square white-text"></i> Twitter
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="footer-copyright indigo darken-3">
+	        <div class="container">
+	            Hecho por <a class="white-text">Ayrton Crespo García</a> y <a class="white-text">Sara Pérez Rodríguez</a>
+	        <div class=" row right"> ©2017 Copyright</div>
+	        </div>
+	    </div>
+	</footer>
+	<!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+    
+</body>
